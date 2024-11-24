@@ -1,0 +1,94 @@
+*{margin: 0px; font-family: 'Georgia', 'Times '; font-weight: 100; color: rgb(232, 223, 223);}
+
+body{
+    background-color:rgb(1, 18, 80);
+}
+
+h1{
+    font-weight: 600;
+    margin: 2%;
+    margin-top: 16%;
+    margin-bottom: 10%;
+    font-size: 12vw;
+    text-align: center;
+}
+
+#head{
+    background-color: rgb(0, 0, 63);
+    margin-top: 0%;
+    padding-top: 1px;
+    padding-bottom: 5%;
+    border: none;
+}
+
+h2, h3, h4, p{
+    margin: 5%;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 16%;
+    margin-bottom: 6%;
+}
+
+h3 {
+    font-size: 4.5vw;
+}
+
+h4 {
+    font-size: 3.25vw;
+}
+
+p {
+    font-size: 2.5vw;
+    text-align: left;
+    margin-top: 0%;
+}
+hr {
+   margin-left: 2%;
+   margin-right: 2%;
+   border-radius: 15px;
+   border: 2px solid white;
+   background-color: white;
+}
+
+.header {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header3 {
+    letter-spacing: 20px;
+    margin-top: 2%;
+}
+
+.button-28 {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: #3B3B3B;
+    cursor: pointer;
+    font: 600 16px/normal Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 60px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 200ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    will-change: transform;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+
+.button-28:active {
+    color: #fff;
+    background-color: rgb(31, 37, 85);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
