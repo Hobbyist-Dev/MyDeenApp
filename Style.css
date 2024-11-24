@@ -9,7 +9,7 @@ h1{
     margin: 2%;
     margin-top: 16%;
     margin-bottom: 10%;
-    font-size: 12vw;
+    font-size: 25vw;
     text-align: center;
 }
 
@@ -23,22 +23,23 @@ h1{
 
 h2, h3, h4, p{
     margin: 5%;
-    font-size: 6vw;
+    font-size: 15vw;
     text-align: center;
     margin-top: 16%;
-    margin-bottom: 6%;
+    margin-bottom: 10%;
 }
 
 h3 {
-    font-size: 4.5vw;
+    font-size: 10vw;
 }
 
 h4 {
-    font-size: 3.25vw;
+    font-size: 6.25vw;
+    margin-top: 25%;
 }
 
 p {
-    font-size: 2.5vw;
+    font-size: 4.5vw;
     text-align: left;
     margin-top: 0%;
 }
@@ -57,7 +58,7 @@ hr {
 
 .header3 {
     letter-spacing: 20px;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .button-28 {
@@ -69,6 +70,7 @@ hr {
     font: 600 16px/normal Arial, Helvetica, sans-serif;
     margin: 0;
     min-height: 60px;
+    width: 50%;
     outline: none;
     padding: 16px 24px;
     text-align: center;
