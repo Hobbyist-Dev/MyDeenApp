@@ -10,6 +10,15 @@
     <title>Home</title>
 </head>
 <body>
+
+    <script>
+        function closered() {
+            // Hide the popup by setting display to none
+            var popup = document.getElementById("popup");
+            popup.style.display = "none";
+        }
+    </script>
+
     <div id="head">
     <h1 lang="ar" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500;">ديني</h1><hr class="header"><h3 class="header3" style="font-size: 9vw;">My Dīn</h3>
     </div>
@@ -21,6 +30,11 @@
     </a><br>
     <h4 id="quote"><i>"I heard 'Abdullah bin Mas'ud saying: 'The Messenger of Allah (ﷺ) said:<br> "[Whoever recites a letter] from Allah's Book, then he receives the reward from it, and the reward of ten the like of it. I do not say that Alif Lam Mim is a letter, but Alif is a letter, Lam is a letter and Mim is a letter."</i><br><br>Narrated Muhammad bin Ka'b Al-Qurazi</h4>
     <p class="reference">At-Tirmidhi 2910</p>
+
+    <div class="popup" id="popup">
+        <p><i class="fa-solid fa-x" style="color: rgb(0, 0, 0); float: left;" onclick="closered()"></i><br>Have you heard? We're officially open for beta testers of our Android App!</p>
+        <a href="thefile">DOWNLOAD NOW</a>
+    </div>
 
     <footer>This app is still in its early stages of development. Therefore, there may be bugs in the functionality of the program.</footer>
 </body>
